@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
-    int arrays[4] = {1,2,4};
+    int arrays[3] = {1,2,4};
     int loc, item;
     int j,n;
 
-    cout<<"Enter the location where you want to store your data: "<<endl;
+    cout<<"Enter the location where you want to store your data:'0'1'2' "<<endl;
     cin>> loc;
 
     cout<<"Enter the value: "<<endl;
@@ -25,7 +25,10 @@ int main(){
 
 
     cout<<arrays[0]<<endl;
-    cout<<arrays<<endl;
+    for(int i = 0; i <=3; i++){
+
+        cout<<arrays[i]<<endl;
+    }
 
     return 0;
 
