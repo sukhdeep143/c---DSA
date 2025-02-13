@@ -6,6 +6,6 @@ int main(){
     int i,n = 3;
 
     for(i = 0; i<n; i++){
-        cout<< "arr[']"
+        cout<< "arr["<<i<<"] = "<< arr[i]<<endl; 
     }
 }
