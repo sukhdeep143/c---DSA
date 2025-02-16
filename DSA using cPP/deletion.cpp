@@ -10,15 +10,13 @@ int main(){
 
     item = arrays_set[loc];
 
-    for(int i = loc; i<=3; i++){
+    for(int i = loc; i<3; i++){
         arrays_set[i] = arrays_set[i+1];
     }
 
     // cout<<arrays_set[0]<<endl;
-    for(int i = 0; i <= 3; i++){
+    for(int i = 0; i < 3; i++){
         cout<<arrays_set[i]<<endl;
 
     }
-
-
 }
