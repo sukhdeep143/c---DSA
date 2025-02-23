@@ -30,4 +30,10 @@ int main() {
     int topElement = s.top(); 
     s.pop(); // Remove top element
     topElement = 50; // Modify it
-    s
+    s.push(topElement); // Push it back
+
+    cout << "Stack after updating top element: ";
+    printStack(s);
+
+    return 0;
+}
